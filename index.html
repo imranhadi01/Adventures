@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pak.html">
+    <title>Document</title>
+</head>
+<body>
+  <div class="main">  
+    <header id="header">
+        <a href="#" class="logo">Tourisim Guide to Asia</a>
+        <!-- <ul>
+            
+            <li><a href="#about">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="https://imranhadi01.github.io/imran.github.io/"> Asia Map</a></li>
+        </ul> -->
+    </header>
+<section>
+    <h2 id="text"><span>Its time for a new</span><br>Adventure </h2>
+    <a href="#myUL" id="btn">Explore the world</a>
+    
+
+  
+    <!-- <img src="34132.jpg" alt=""> -->
+</section>
+</div>
+<div class="sec">
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search your favourite country" title="Type in a name">
+
+    <ul id="myUL">
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_Afghanistan" target="_blank"> Afghanistan</a></li>
+        <li><a href="https://www.trade.gov/country-commercial-guides/armenia-travel-and-tourism#:~:text=Armenia%20is%20a%20unique%20tourism%20destination%20with%20a,agricultural%2C%20recreational%2C%20culinary%2C%20nature%2C%20adventure%2C%20genealogical%2C%20and%20more." target="_blank"> Armenia</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_Bahrain" target="_blank"> Bahrain</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_Bangladesh" target="_blank"> Bangladesh</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_Bhutan" target="_blank" > Bhutan</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_Brunei" target="_blank"> Brunei</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_Cambodia" target="_blank"> Cambodia</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_China" target="_blank"> China</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_Cyprus" target="_blank"> Cyprus</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_Georgia_(country)" target="_blank">Georgia </a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_India" target="_blank"> India  </a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_Indonesia" target="_blank"> Indonesia </a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_Iran" target="_blank"> Iran </a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_Iraq" target="_blank"> Iraq </a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_Japan" target="_blank"> Japan</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_Jordan" target="_blank"> Jordan</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_Kazakhstan" target="_blank"> Kazakhstan</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Kuwait" target="_blank"> Kuwait </a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_Kyrgyzstan" target="_blank"> Kyrgyzstan </a></li>   
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_Malaysia" target="_blank">Malaysia</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_the_Maldives" target="_blank"> Maldives</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_Mongolia" target="_blank"> Mongolia</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_Myanmar" target="_blank"> Myanmar</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_Nepal" target="_blank"> Nepal</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_North_Korea" target="_blank"> North Korea</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_Oman" target="_blank"> Oman</a></li>
+        <li><a href="pak.html"> Pakistan</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_the_State_of_Palestine" target="_blank"> Palestine</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_the_Philippines" target="_blank"> Philippines</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Qatar_Tourism_Authority" target="_blank"> Qatar</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_Sri_Lanka" target="_blank"> Sri Lanka</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_Syria" target="_blank"> Syria </a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_Russia" target="_blank"> Russia </a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_Singapore" target="_blank"> Singapore </a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_South_Korea" target="_blank"> South Korea </a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_Syria" target="_blank"> Syria </a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_Thailand" target="_blank"> Thailand </a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_Turkey" target="_blank"> Turkey </a></li> 
+        <li><a href="https://en.wikipedia.org/wiki/Tourism_in_the_United_Arab_Emirates" target="_blank"> United Arab Emirates (UAE) </a></li>      
+    </ul>
+</div>
+    <div class="map">
+    <h1 class="fun">have some fun together :)</h1>    
+    </div>
+    
+    <script>
+    function myFunction() {
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myUL");
+        li = ul.getElementsByTagName("li");
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+    }
+    </script>
+</body>
+</html>
